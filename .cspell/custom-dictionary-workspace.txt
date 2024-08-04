@@ -1,0 +1,5 @@
+# Custom Dictionary Words
+{
+  "cSpell.language": "en,es",
+  "cSpell.dictionaries": ["en", "es"]
+}
