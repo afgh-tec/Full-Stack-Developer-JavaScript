@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div p {
+        color: aquamarine;
+      }
+      div > div {
+        background: purple;
+      }
+      .es {
+        background: red;
+      }
+      div + section {
+        background: chartreuse;
+      }
+      div ~ p {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Descendientes: div p</p>
+    </div>
+    <div>
+      <div>
+        <p>Hijo directo: div > p</p>
+        <div class="es">Aprendiendo</div>
+      </div>
+    </div>
+    <p>General de hermanos: div ~ p</p>
+    <p>General de hermanos: div ~ p</p>
+    <section>Elemento adyaente: div + p</section>
+  </body>
+</html>
