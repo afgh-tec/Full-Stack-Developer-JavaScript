@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* texto de color */
+      p{
+        color:burlywood;
+      }
+      /* primera letra de color */
+      p::first-letter{
+        color: brown;
+      }
+      /* un elemento delante del contenido */
+      p::before{
+        content: "⚡";
+      }
+      /* un elemento después del contenido */
+      p::after{
+        content: "🤗";
+      }
+      p:hover {
+        color: aqua;
+      }
+
+      div p:nth-child(2){
+        color: blueviolet;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <p>Hola Mundo</p>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        facere, possimus, dolorem minus qui ullam, eveniet temporibus in
+        molestiae magnam atque! Iste ratione, quaerat est fugit maiores odit
+        voluptate optio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        facere, possimus, dolorem minus qui ullam, eveniet temporibus in
+        molestiae magnam atque! Iste ratione, quaerat est fugit maiores odit
+        voluptate optio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        facere, possimus, dolorem minus qui ullam, eveniet temporibus in
+        molestiae magnam atque! Iste ratione, quaerat est fugit maiores odit
+        voluptate optio.
+      </p>
+      
+    </div>
+  </body>
+</html>
