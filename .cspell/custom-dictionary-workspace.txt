@@ -1,6 +1,0 @@
-"cSpell.dictionaries": ["en", "es"]
-  "cSpell.language": "en,es",
-{
-}
-# Custom Dictionary Words
-Fahrenheit
