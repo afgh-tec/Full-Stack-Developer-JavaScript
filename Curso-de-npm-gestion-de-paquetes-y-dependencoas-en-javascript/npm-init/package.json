@@ -12,5 +12,8 @@
   ],
   "author": "augusto gutierrez <af.gutierrezherrera@gmail.com>",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
 }
